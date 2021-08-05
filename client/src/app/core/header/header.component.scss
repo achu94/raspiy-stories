@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  margin: 10px 0px 0.5em 0px;
+  background-color:#F3F2ED;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.nav-header {
+  display: flex;
+  width: 33%;
+}
+
+.nav-btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+
+.nav-btn:hover {background: #eee;}
+
+.header-logo {
+  display: contents;
+}
+
+.header-profil {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 33%;
+}

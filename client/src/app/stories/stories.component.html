@@ -1,0 +1,13 @@
+<div class="leftcolumn">
+  <h2>Top Stories</h2>
+  <hr>
+  <div *ngIf="!stories" >Loading...</div>
+  <ul *ngFor="let story of stories" class="fav-list">
+    <!-- <li><a href="#">ABCDE</a></li>
+    <li><a href="#">ABCDE</a></li>
+    <li><a href="#">ABCDE</a></li>
+    <li><a href="#">ABCDE</a></li>
+    <li><a href="#">ABCDE</a></li> -->
+    <li> <a href="{{'#' + story.id}}">{{story.value}}</a>  </li>
+  </ul>
+</div>

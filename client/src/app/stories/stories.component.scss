@@ -1,0 +1,22 @@
+.leftcolumn { 
+  color: #333;
+  border: 1px solid #ccc;
+  margin: 0px 5px 0.5em 0px;
+  padding: 10px;
+  min-width: 20%;
+}
+
+.fav-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.fav-list > li{
+  padding: 0.3em;
+  font-size: medium;
+  font-family: 'Roboto Mono', monospace;
+  color: var(--deep-taupe);
+  width: 100%;
+}

@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+:root {
+    /* CSS HEX */
+  --mint-cream: #f1fffaff;
+  --pale-silver: #d5c7bcff;
+  --deep-taupe: #785964ff;
+  --onyx: #454545ff;
+
+  /* CSS HSL */
+  --mint-cream: hsla(159, 100%, 97%, 1);
+  --pale-silver: hsla(26, 23%, 79%, 1);
+  --deep-taupe: hsla(339, 15%, 41%, 1);
+  --onyx: hsla(0, 0%, 27%, 1);
+}
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background-color: var(--mint-cream);
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none; /* no underline */
+  color: var(--deep-taupe);
+}
+
+p {
+  font-size: medium;
+}
+p, h3, text {
+  color: var(--onyx);
+}
+
+h1, h2, hr {
+  color: var(--deep-taupe)
+}
+
+#wrapper { 
+ margin: 0 auto;
+ max-width: 1400px;
+}

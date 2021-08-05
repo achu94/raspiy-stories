@@ -1,0 +1,19 @@
+.footer { 
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color:#F3F2ED;
+  margin: 0px 0px 1em 0px;
+}
+
+.nav-footer {
+  display: flex;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.nav-footer > li {
+  padding: 1em;
+}
